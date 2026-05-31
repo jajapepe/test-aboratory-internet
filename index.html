@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио Разработчика</title>
+  <link rel="stylesheet" href="/src/styles/main.scss">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo">Георгий Солодовников</a>
+        <a href="resume.pdf" download class="resume-link" target="_blank">📄 Резюме</a>
+        <ul class="nav-links">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#experience">Опыт</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Привет, я <span class="highlight">Георгий Солодовников</span></h1>
+        <p class="hero-subtitle">Fullstack-разработчик • 3.5 года опыта • Golang, Node.js, React</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Связаться со мной</a>
+          <a href="resume.pdf" download class="btn btn-secondary">Скачать резюме</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Обо мне</h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <h3>Fullstack-разработчик</h3>
+            <p>Специализируюсь на построении высоконагруженных backend-сервисов и современных frontend-приложений. Умею проектировать архитектуру с нуля: от выбора стека до настройки CI/CD и деплоя в production.</p>
+            <p><strong>Опыт:</strong> 3.5 года коммерческой разработки</p>
+            <p><strong>Расположение:</strong> Пермь, готов к удалённой работе</p>
+            <p><strong>Зарплатные ожидания:</strong> 150 000 ₽ на руки</p>
+            <ul class="about-list">
+              <li>🚀 Разрабатывал функционал для образовательных платформ, интернет-магазинов и мобильных приложений</li>
+              <li>🏗 Проектировал архитектуру с нуля, включая выбор технологий</li>
+              <li>⚡ Интегрировал платёжные системы (ЮKassa), OAuth2 провайдеры</li>
+              <li>🔧 Настраивал CI/CD пайплайны и Docker-окружение</li>
+            </ul>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">3.5+</span>
+              <span class="stat-label">Года опыта</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Компании</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Проектов</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Технологии</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Golang</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">Gin</span>
+              <span class="skill-tag">GraphQL</span>
+              <span class="skill-tag">REST API</span>
+              <span class="skill-tag">gRPC</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Redis</span>
+              <span class="skill-tag">Sequelize</span>
+              <span class="skill-tag">SQLC</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">SCSS</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Mobile & DevOps</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React Native</span>
+              <span class="skill-tag">Expo</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Docker Compose</span>
+              <span class="skill-tag">CI/CD</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Jest</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Опыт работы</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Декабрь 2025 — Настоящее время</div>
+            <div class="timeline-content">
+              <h3>Backend-разработчик</h3>
+              <p class="timeline-company">Neurosell (Москва)</p>
+              <p>Разработка и поддержка REST API на стеке JavaScript + Express.js с архитектурой MVC. Интеграция платёжной системы ЮKassa (API подписок, вебхуки, обработка событий). Подключение OAuth2-провайдеров: Google, VK, Telegram, Apple. Кэширование ответов API через Redis. Интеграции со сторонними сервисами (Ivideon, HolyHop). Написание unit-тестов (Jest), документирование API. Настройка CI/CD пайплайнов, Docker / Docker Compose.</p>
+              <div class="case-tech">
+                <span>JavaScript</span>
+                <span>Express.js</span>
+                <span>Sequelize</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+                <span>Jest</span>
+                <span>Docker</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Январь 2024 — Декабрь 2025</div>
+            <div class="timeline-content">
+              <h3>Fullstack-разработчик</h3>
+              <p class="timeline-company">Инвейжн (Пермь)</p>
+              <p>Разработка backend на Golang (Gin, pgx) — REST API и полная миграция на GraphQL. Генерация типобезопасных SQL-запросов с SQLC. Реализация межсервисного взаимодействия через gRPC. Frontend SPA и SSR-приложения на React / Next.js (TypeScript, SCSS). Разработка и деплой мобильного приложения на React Native + Expo. Проектирование архитектуры проекта, настройка CI/CD пайплайнов.</p>
+              <div class="case-tech">
+                <span>Golang</span>
+                <span>Gin</span>
+                <span>GraphQL</span>
+                <span>gRPC</span>
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>React Native</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Август 2022 — Сентябрь 2023</div>
+            <div class="timeline-content">
+              <h3>Frontend-разработчик</h3>
+              <p class="timeline-company">Sokrat (sokratapp.ru)</p>
+              <p>Разработка и поддержка SPA на React + TypeScript: новый функционал и рефакторинг. Работа с REST API, AJAX-запросы, интеграция внешних сервисов. Адаптивная вёрстка (SCSS), управление состоянием через хуки React.</p>
+              <div class="case-tech">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>JavaScript</span>
+                <span>REST API</span>
+                <span>SCSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Связаться со мной</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Давайте работать вместе!</h3>
+            <p>Открыт к интересным проектам и предложениям. Готов к удалённой работе. Напишите мне, и я отвечу в ближайшее время.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span>georgy-solodovnikov1@yandex.ru</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <span>+7 (909) 116-31-29</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">✈️</span>
+                <span><a href="https://t.me/tsHATER" target="_blank">@tsHATER (Telegram)</a></span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <span>Пермь, Россия</span>
+              </div>
+            </div>
+          </div>
+          
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Имя *</label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                placeholder="Ваше имя" 
+                required 
+                minlength="2"
+                maxlength="100"
+              >
+              <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="your@email.com" 
+                required
+              >
+              <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Телефон *</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                placeholder="+7 (999) 123-45-67" 
+                required
+              >
+              <span class="error-message" id="phoneError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="comment">Комментарий *</label>
+              <textarea 
+                id="comment" 
+                name="comment" 
+                placeholder="Расскажите о вашем проекте..." 
+                rows="5"
+                required
+                minlength="10"
+                maxlength="1000"
+              ></textarea>
+              <span class="error-message" id="commentError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+              <span class="btn-text">Отправить заявку</span>
+              <span class="btn-loading" style="display: none;">Отправка...</span>
+            </button>
+
+            <div class="form-message" id="formMessage"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 DevPortfolio. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
