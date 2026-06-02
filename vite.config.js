@@ -15,14 +15,8 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
     rollupOptions: {
-      input: 'index.html',
-      output: {
-        assetFileNames: 'assets/[name][extname]',
-        chunkFileNames: 'assets/[name]-[hash].js',
-        entryFileNames: 'assets/[name]-[hash].js'
-      }
+      input: 'index.html'
     }
   },
   plugins: [
