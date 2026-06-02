@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/developer-landing/',
   server: {
     port: 5173,
     proxy: {
