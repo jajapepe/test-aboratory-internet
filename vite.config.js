@@ -1,4 +1,6 @@
 import { defineConfig } from 'vite';
+import fs from 'fs';
+import path from 'path';
 
 export default defineConfig({
   base: '/developer-landing/',
@@ -16,5 +18,13 @@ export default defineConfig({
     rollupOptions: {
       input: 'index.html'
     }
-  }
+  },
+  plugins: [
+    {
+      name: 'nojekyll',
+      writeBundle() {
+        fs.writeFileSync(path.join(__dirname, 'dist', '.nojekyll'), '');
+      }
+    }
+  ]
 });
