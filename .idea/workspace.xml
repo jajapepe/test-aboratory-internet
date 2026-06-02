@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbcc40d-1c2f-4d4e-ba91-e6334dcb8841" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-    </list>
+    <list default="true" id="fdbcc40d-1c2f-4d4e-ba91-e6334dcb8841" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +33,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "C:/Users/tshater/Desktop/test-aboratory-internet",
     "node.js.detected.package.eslint": "true",
@@ -67,7 +65,7 @@
       <updated>1780216304327</updated>
       <workItem from="1780216305484" duration="406000" />
       <workItem from="1780216740960" duration="847000" />
-      <workItem from="1780380640843" duration="350000" />
+      <workItem from="1780380640843" duration="667000" />
     </task>
     <servers />
   </component>
