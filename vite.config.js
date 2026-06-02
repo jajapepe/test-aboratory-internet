@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default defineConfig({
-  base: '/developer-landing/',
+  base: '/test-aboratory-internet/',
   server: {
     port: 5173,
     proxy: {
